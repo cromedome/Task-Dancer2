@@ -128,7 +128,9 @@ foreach my $type ( keys %features ) {
             @{ $features{$type}{$semi_namespace} }{qw/ name default min /};
 
         # install by default unless otherwise specified
-        $default = defined($default) ? 1 : 0;
+        $default = defined($default) ? 0 : 1;
+        print $full_namespace, " ", $default, "\n";
+
         # no minimum version by default
         $min ||= 0;
 
