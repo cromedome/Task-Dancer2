@@ -114,8 +114,8 @@ foreach my $type ( keys %features ) {
 
     foreach my $semi_namespace ( keys %{ $features{$type} } ) {
         my $full_namespace = $namespace                               ?
-                            "Dancer::${namespace}::${semi_namespace}" :
-                            "Dancer::${semi_namespace}";
+                            "Dancer2::${namespace}::${semi_namespace}" :
+                            "Dancer2::${semi_namespace}";
 
         if (exists($features{$type}{$semi_namespace}{minperl}) &&
             $features{$type}{$semi_namespace}{minperl} > $] ) {
@@ -128,7 +128,7 @@ foreach my $type ( keys %features ) {
             @{ $features{$type}{$semi_namespace} }{qw/ name default min /};
 
         # install by default unless otherwise specified
-        $default = defined($default) ? 0 : 1;
+        $default = defined($default) ? 1 : 0;
         # no minimum version by default
         $min ||= 0;
 
