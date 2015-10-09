@@ -9,6 +9,7 @@ my %features = (
         namespace       => 'Template',
 
         Haml            => { name => 'Text::Haml engine for Dancer2' },
+        HTCompiled      => { name => 'HTML::Template::Compiled template engine for Dancer2' },
         Mason2          => { name => 'Mason 2.x engine for Dancer2' },
         MojoTemplate    => { name => 'Mojo::Template wrapper for Dancer2',
                              minperl => '5.010001' },
@@ -20,9 +21,9 @@ my %features = (
     logging => {
         namespace  => 'Logger',
 
-        #'Console::Colored' => { name => 'Dancer2 colored console logger' },
+        'Console::Colored' => { name => 'Dancer2 colored console logger' },
         'File::RotateLogs' => { name => 'An automated logrotate' },
-        Syslog     => { name => 'Logging engine for Sys::Syslog' },
+        Syslog             => { name => 'Logging engine for Sys::Syslog' },
     },
 
     serialization => {
@@ -38,7 +39,6 @@ my %features = (
         CGISession      => { name => 'Share Dancer2 sessions with CGI::Session' },
         Cookie          => { name => 'Session storage in secure cookies' },
         DBIC            => { name => 'DBIx::Class session engine for Dancer2' },
-        HTCompiled      => { name => 'HTML::Template::Compiled template engine for Dancer2' },
         #JSON            => { name => 'Session storage in JSON files' },
         Memcached       => { name => 'Session storage with Cache::Memcached' },
         MongoDB         => { name => 'Session storage with MongoDB' },
@@ -129,7 +129,6 @@ foreach my $type ( keys %features ) {
 
         # install by default unless otherwise specified
         $default = defined($default) ? 0 : 1;
-        print $full_namespace, " ", $default, "\n";
 
         # no minimum version by default
         $min ||= 0;

@@ -19,13 +19,13 @@ Version 0.01
 
 This Task installs Dancer2, optional engines, templates and assorted
 modules that are not included in the Dancer2 core distribution. It is
-based heavily on the awesome L< Task::Dancer > distribution by Sawyer X
+based heavily on the awesome L<Task::Dancer> distribution by Sawyer X
 and ambs.
 
 If you've written anything relating to Dancer2, please let us know.
 
 We try to maintain a list of modules that are maintained and install
-properly. If any of the modules in C< Task::Dancer2 > tried to install
+properly. If any of the modules in C<Task::Dancer2> tried to install
 and failed, please let us know so we can temporarily disable it. Also, 
 tell us if any module that was temporarily disabled is working again.
 
@@ -35,29 +35,19 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Template::Alloy>
+=item L<Dancer2::Template::Haml>
 
-=item L<Dancer::Template::Haml>
+=item L<Dancer2::Template::HTCompiled>
 
-=item L<Dancer::Template::HtmlTemplate>
+=item L<Dancer2::Template::Mason2>
 
-=item L<Dancer::Template::Mason>
+=item L<Dancer2::Template::MojoTemplate>
 
-=item L<Dancer::Template::Mason2>
+=item L<Dancer2::Template::TemplateFlute>
 
-=item L<Dancer::Template::MicroTemplate>
+=item L<Dancer2::Template::TextTemplate>
 
-=item L<Dancer::Template::MojoTemplate>
-
-=item L<Dancer::Template::TemplateFlute>
-
-=item L<Dancer::Template::TemplateSandbox>
-
-=item L<Dancer::Template::Tenjin>
-
-=item L<Dancer::Template::Tiny>
-
-=item L<Dancer::Template::Xslate>
+=item L<Dancer2::Template::Xslate>
 
 =back
 
@@ -65,17 +55,11 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Logger::ColorConsole>
+=item L<Dancer2::Logger::Console::Colored>
 
-=item L<Dancer::Logger::ConsoleSpinner>
+=item L<Dancer::Logger::File::RotateLogs>
 
-=item L<Dancer::Logger::Log4perl>
-
-=item L<Dancer::Logger::Pipe>
-
-=item L<Dancer::Logger::PSGI>
-
-=item L<Dancer::Logger::Syslog>
+=item L<Dancer2::Logger::Syslog>
 
 =back
 
@@ -83,7 +67,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Serializer::UUEncode>
+=item L<Dancer2::Serializer::CBOR>
 
 =back
 
@@ -91,19 +75,25 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Session::CHI>
+=item L<Dancer2::Session::Caribou>
 
-=item L<Dancer::Session::Cookie>
+=item L<Dancer2::Session::CGISession>
 
-=item L<Dancer::Session::KiokuDB>
+=item L<Dancer2::Session::Cookie>
 
-=item L<Dancer::Session::Memcached>
+=item L<Dancer2::Session::DBIC>
 
-=item L<Dancer::Session::MongoDB>
+=item L<Dancer2::Session::JSON> (temporarily disabled)
 
-=item L<Dancer::Session::PSGI>
+=item L<Dancer2::Session::Memcached>
 
-=item L<Dancer::Session::Storable>
+=item L<Dancer2::Session::MongoDB>
+
+=item L<Dancer2::Session::PSGI>
+
+=item L<Dancer2::Session::Redis>
+
+=item L<Dancer2::Session::Sereal>
 
 =back
 
@@ -111,111 +101,105 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer::Plugin::Async>
+=item L<Dancer2::Plugin::Adapter>
 
-=item L<Dancer::Plugin::Auth::Basic>
+=item L<Dancer2::Plugin::Ajax>
 
-=item L<Dancer::Plugin::Auth::Htpasswd>
+=item L<Dancer2::Plugin::AppRole::Helper>
 
-=item L<Dancer::Plugin::Auth::Extensible>
+=item L<Dancer2::Plugin::Articulate>
 
-=item L<Dancer::Plugin::Auth::Tiny>
+=item L<Dancer2::Plugin::Auth::Extensible>
 
-=item L<Dancer::Plugin::Auth::Twitter>
+=item L<Dancer2::Plugin::Auth::Extensible::Provider::DBIC>
 
-=item L<Dancer::Plugin::Bcrypt>
+=item L<Dancer2::Plugin::Auth::Extensible::Provider::Usergroup>
 
-=item L<Dancer::Plugin::Browser>
+=item L<Dancer2::Plugin::Auth::HTTP::Basic::DWIW>
 
-=item L<Dancer::Plugin::Cache::CHI>
+=item L<Dancer2::Plugin::Auth::OAuth>
 
-=item L<Dancer::Plugin::Captcha::SecurityImage>
+=item L<Dancer2::Plugin::Auth::Tiny>
 
-=item L<Dancer::Plugin::Database>
+=item L<Dancer2::Plugin::Auth::YARBAC>
 
-=item L<Dancer::Plugin::DBIC>
+=item L<Dancer2::Plugin::BrowserDetect>
 
-=item L<Dancer::Plugin::DebugDump>
+=item L<Dancer2::Plugin::Cache::CHI>
 
-=item L<Dancer::Plugin::DebugToolbar>
+=item L<Dancer2::Plugin::Captcha>
 
-=item L<Dancer::Plugin::DirectoryView>
+=item L<Dancer2::Plugin::Chain>
 
-=item L<Dancer::Plugin::Email>
+=item L<Dancer2::Plugin::ConditionalCaching>
 
-=item L<Dancer::Plugin::EncodeID>
+=item L<Dancer2::Plugin::Database>
 
-=item L<Dancer::Plugin::EscapeHTML>
+=item L<Dancer2::Plugin::DataTransposeValidator>
 
-=item L<Dancer::Plugin::Feed>
+=item L<Dancer2::Plugin::DBIC>
 
-=item L<Dancer::Plugin::FlashMessage>
+=item L<Dancer2::Plugin::Deferred>
 
-=item L<Dancer::Plugin::FlashNote>
+=item L<Dancer2::Plugin::ElasticSearch>
 
-=item L<Dancer::Plugin::FormattedOutput>
+=item L<Dancer2::Plugin::Email>
 
-=item L<Dancer::Plugin::FormValidator>
+=item L<Dancer2::Plugin::Emailesque>
 
-=item L<Dancer::Plugin::Hosts>
+=item L<Dancer2::Plugin::Feed>
 
-=item L<Dancer::Plugin::LibraryThing>
+=item L<Dancer2::Plugin::GoogleAnalytics>
 
-=item L<Dancer::Plugin::Memcached>
+=item L<Dancer2::Plugin::Growler>
 
-=item L<Dancer::Plugin::MemcachedFast>
+=item L<Dancer2::Plugin::HTTP::Auth::Extensible>
 
-=item L<Dancer::Plugin::MobileDevice>
+=item L<Dancer2::Plugin::JWT>
 
-=item L<Dancer::Plugin::Mongo>
+=item L<Dancer2::Plugin::Locale>
 
-=item L<Dancer::Plugin::Nitesi>
+=item L<Dancer2::Plugin::Locale::Wolowitz>
 
-=item L<Dancer::Plugin::NYTProf>
+=item L<Dancer2::Plugin::LogContextual>
 
-=item L<Dancer::Plugin::Params::Normalization>
+=item L<Dancer2::Plugin::LogReport>
 
-=item L<Dancer::Plugin::Passphrase>
+=item L<Dancer2::Plugin::Model>
 
-=item L<Dancer::Plugin::Preprocess::Sass>
+=item L<Dancer2::Plugin::Multilang>
 
-=item L<Dancer::Plugin::Progress>
+=item L<Dancer2::Plugin::Negotiate>
 
-=item L<Dancer::Plugin::ProxyPath>
+=item L<Dancer2::Plugin::ParamKeywords>
 
-=item L<Dancer::Plugin::Redis>
+=item L<Dancer2::Plugin::Passphrase>
 
-=item L<Dancer::Plugin::REST>
+=item L<Dancer2::Plugin::Path::Class>
 
-=item L<Dancer::Plugin::Scoped> (temporarily disabled)
+=item L<Dancer2::Plugin::ProgressStatus>
 
-=item L<Dancer::Plugin::SimpleCRUD>
+=item L<Dancer2::Plugin::Queue>
 
-=item L<Dancer::Plugin::SiteMap>
+=item L<Dancer2::Plugin::Queue::MongoDB>
 
-=item L<Dancer::Plugin::SMS>
+=item L<Dancer2::Plugin::ReCAPTCHA>
 
-=item L<Dancer::Plugin::SporeDefinitionControl> (disabled)
+=item L<Dancer2::Plugin::Redis>
 
-=item L<Dancer::Plugin::Stomp>
+=item L<Dancer2::Plugin::Res>
 
-=item L<Dancer::Plugin::TimeRequest>
+=item L<Dancer2::Plugin::REST>
 
-=item L<Dancer::Plugin::Thumbnail>
+=item L<Dancer2::Plugin::RootURIFor>
 
-=item L<Dancer::Plugin::ValidateTiny>
+=item L<Dancer2::Plugin::RoutePodCoverage>
 
-=item L<Dancer::Plugin::XML::RSS>
+=item L<Dancer2::Plugin::Sixpack>
 
-=back
+=item L<Dancer2::Plugin::Syntax::GetPost>
 
-=head1 More Plack Middlewares
-
-=over 4
-
-=item L<Dancer::Middleware::Rebase>
-
-=item L<Dancer::Debug>
+=item L<Dancer2::Plugin::UnicodeNormalize>
 
 =back
 
@@ -261,8 +245,10 @@ L<http://search.cpan.org/dist/Task-Dancer2/>
 
 =head1 ACKNOWLEDGEMENTS
 
-L< Dancer > team.
+L<Dancer2> team.
+
 Sawyer X, C<xsawyerx AT cpan DOT org>
+
 Alberto Simoes, C<ambs AT cpan DOT org>
 
 =head1 LICENSE AND COPYRIGHT
