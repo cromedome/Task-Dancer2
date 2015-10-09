@@ -35,6 +35,8 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
+=item L<Dancer2::Template::Caribou> (disabled)
+
 =item L<Dancer2::Template::Haml>
 
 =item L<Dancer2::Template::HTCompiled>
@@ -75,8 +77,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =over 4
 
-=item L<Dancer2::Session::Caribou>
-
 =item L<Dancer2::Session::CGISession>
 
 =item L<Dancer2::Session::Cookie>
@@ -87,18 +87,17 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::Memcached>
 
-=item L<Dancer2::Session::MongoDB>
+=item L<Dancer2::Session::MongoDB> (disabled)
 
 =item L<Dancer2::Session::PSGI>
 
 =item L<Dancer2::Session::Redis>
 
-=item L<Dancer2::Session::Sereal>
+=item L<Dancer2::Session::Sereal> (disabled)
 
 =back
 
 =head2 Plugins
-
 =over 4
 
 =item L<Dancer2::Plugin::Adapter>
@@ -127,7 +126,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Cache::CHI>
 
-=item L<Dancer2::Plugin::Captcha>
+=item L<Dancer2::Plugin::Captcha> (disabled)
 
 =item L<Dancer2::Plugin::Chain>
 
@@ -153,13 +152,13 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Growler>
 
-=item L<Dancer2::Plugin::HTTP::Auth::Extensible>
+=item L<Dancer2::Plugin::HTTP::Auth::Extensible> (disabled)
 
 =item L<Dancer2::Plugin::JWT>
 
-=item L<Dancer2::Plugin::Locale>
+=item L<Dancer2::Plugin::Locale> (disabled)
 
-=item L<Dancer2::Plugin::Locale::Wolowitz>
+=item L<Dancer2::Plugin::Locale::Wolowitz> (disabled)
 
 =item L<Dancer2::Plugin::LogContextual>
 
@@ -179,17 +178,17 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::ProgressStatus>
 
-=item L<Dancer2::Plugin::Queue>
+=item L<Dancer2::Plugin::Queue> (disabled)
 
-=item L<Dancer2::Plugin::Queue::MongoDB>
+=item L<Dancer2::Plugin::Queue::MongoDB> (disabled)
 
-=item L<Dancer2::Plugin::ReCAPTCHA>
+=item L<Dancer2::Plugin::ReCAPTCHA> (disabled)
 
 =item L<Dancer2::Plugin::Redis>
 
 =item L<Dancer2::Plugin::Res>
 
-=item L<Dancer2::Plugin::REST>
+=item L<Dancer2::Plugin::REST> (disabled)
 
 =item L<Dancer2::Plugin::RootURIFor>
 
