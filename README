@@ -19,6 +19,7 @@ DESCRIPTION
 
 INCLUDES MODULES
   Template Engines
+    Dancer2::Template::Caribou (disabled)
     Dancer2::Template::Haml
     Dancer2::Template::HTCompiled
     Dancer2::Template::Mason2
@@ -36,16 +37,15 @@ INCLUDES MODULES
     Dancer2::Serializer::CBOR
 
   Session Engines
-    Dancer2::Session::Caribou
     Dancer2::Session::CGISession
     Dancer2::Session::Cookie
     Dancer2::Session::DBIC
     Dancer2::Session::JSON (temporarily disabled)
     Dancer2::Session::Memcached
-    Dancer2::Session::MongoDB
+    Dancer2::Session::MongoDB (disabled)
     Dancer2::Session::PSGI
     Dancer2::Session::Redis
-    Dancer2::Session::Sereal
+    Dancer2::Session::Sereal (disabled)
 
   Plugins
     Dancer2::Plugin::Adapter
@@ -58,7 +58,7 @@ INCLUDES MODULES
     Dancer2::Plugin::Auth::HTTP::Basic::DWIW
     Dancer2::Plugin::Auth::OAuth
     Dancer2::Plugin::Auth::Tiny
-    Dancer2::Plugin::Auth::YARBAC
+    Dancer2::Plugin::Auth::YARBAC (disabled)
     Dancer2::Plugin::BrowserDetect
     Dancer2::Plugin::Cache::CHI
     Dancer2::Plugin::Captcha
@@ -74,10 +74,10 @@ INCLUDES MODULES
     Dancer2::Plugin::Feed
     Dancer2::Plugin::GoogleAnalytics
     Dancer2::Plugin::Growler
-    Dancer2::Plugin::HTTP::Auth::Extensible
+    Dancer2::Plugin::HTTP::Auth::Extensible (disabled)
     Dancer2::Plugin::JWT
-    Dancer2::Plugin::Locale
-    Dancer2::Plugin::Locale::Wolowitz
+    Dancer2::Plugin::Locale (disabled)
+    Dancer2::Plugin::Locale::Wolowitz (disabled)
     Dancer2::Plugin::LogContextual
     Dancer2::Plugin::LogReport
     Dancer2::Plugin::Model
@@ -87,12 +87,12 @@ INCLUDES MODULES
     Dancer2::Plugin::Passphrase
     Dancer2::Plugin::Path::Class
     Dancer2::Plugin::ProgressStatus
-    Dancer2::Plugin::Queue
-    Dancer2::Plugin::Queue::MongoDB
-    Dancer2::Plugin::ReCAPTCHA
+    Dancer2::Plugin::Queue (disabled)
+    Dancer2::Plugin::Queue::MongoDB (disabled)
+    Dancer2::Plugin::reCAPTCHA
     Dancer2::Plugin::Redis
     Dancer2::Plugin::Res
-    Dancer2::Plugin::REST
+    Dancer2::Plugin::REST (disabled)
     Dancer2::Plugin::RootURIFor
     Dancer2::Plugin::RoutePodCoverage
     Dancer2::Plugin::Sixpack

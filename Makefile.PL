@@ -4,15 +4,18 @@ use warnings;
 # Load the Module::Install bundled in ./inc/
 use inc::Module::Install;
 
-#Warning: prerequisite Dancer2::Plugin::Auth::YARBAC 0 not found.
-#Warning: prerequisite Dancer2::Plugin::Captcha 0 not found.
-#Warning: prerequisite Dancer2::Plugin::HTTP::Auth::Extensible 0 not found.
-#Warning: prerequisite Dancer2::Plugin::Locale 0 not found.
-#Warning: prerequisite Dancer2::Plugin::Locale::Wolowitz 0 not found.
-#Warning: prerequisite Dancer2::Plugin::Queue 0 not found.
-#Warning: prerequisite Dancer2::Plugin::Queue::MongoDB 0 not found.
-#Warning: prerequisite Dancer2::Plugin::ReCAPTCHA 0 not found.
-#Warning: prerequisite Dancer2::Template::Caribou 0 not found.
+##
+## Problems we are currently aware of (Linux and OSX):
+## - Data::Alias isn't installing for Template::Caribou
+## - Bad version check in Dancer2::Session::JSON
+## - Bad version check in Dancer2::Session::MongoDB
+## - Test failures in Dancer2::Session::Sereal
+## - Test failures in Dancer2::Plugin::Auth::YARBAC
+## - Test failures in Dancer2::Plugin::Queue
+## - Unmet dependency (String::UnicodeUTF8.pm) in ::Locale, other failures
+## - Test failures in HTTP::Auth::Extensible
+## - Test failures in Dancer2::Plugin::REST
+##
 
 my %features = (
     templating => {
@@ -73,7 +76,7 @@ my %features = (
         'Auth::YARBAC'  => { name => 'Yet Another Role Based Access Control Framework' },
         BrowserDetect   => { name => 'Easily detect browser information' },
         'Cache::CHI'    => { name => 'Plugin to cache response content (and anything else)' },
-        #Captcha         => { name => 'Dancer2 add-on for CAPTCHA' },
+        Captcha         => { name => 'Dancer2 add-on for CAPTCHA' },
         Chain           => { name => 'Add-on for route chaining' },
         ConditionalCaching => { name => 'RFC7234 Caching' },
         Database        => { name => 'Easy database connections for Dancer2 applications' },
@@ -101,7 +104,7 @@ my %features = (
         ProgressStatus  => { name => 'Keeps track of progress status' },
         #Queue           => { name => 'Message queue abstractions' },
         #'Queue::MongoDB' => { name => 'Dancer2::Plugin::Queue backend using MongoDB' },
-        #ReCAPTCHA       => { name => 'Integrate reCAPTCHA into Dancer2 applications' },
+        reCAPTCHA       => { name => 'Integrate reCAPTCHA into Dancer2 applications' },
         Redis           => { name => 'Plugin for interaction with key-value-store Redis' },
         Res             => { name => 'Add on for setting status/response' },
         #REST            => { name => 'Write RESTful apps with Dancer2' },

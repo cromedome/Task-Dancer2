@@ -98,6 +98,7 @@ tell us if any module that was temporarily disabled is working again.
 =back
 
 =head2 Plugins
+
 =over 4
 
 =item L<Dancer2::Plugin::Adapter>
@@ -120,13 +121,13 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Auth::Tiny>
 
-=item L<Dancer2::Plugin::Auth::YARBAC>
+=item L<Dancer2::Plugin::Auth::YARBAC> (disabled)
 
 =item L<Dancer2::Plugin::BrowserDetect>
 
 =item L<Dancer2::Plugin::Cache::CHI>
 
-=item L<Dancer2::Plugin::Captcha> (disabled)
+=item L<Dancer2::Plugin::Captcha> 
 
 =item L<Dancer2::Plugin::Chain>
 
@@ -182,7 +183,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Queue::MongoDB> (disabled)
 
-=item L<Dancer2::Plugin::ReCAPTCHA> (disabled)
+=item L<Dancer2::Plugin::reCAPTCHA>
 
 =item L<Dancer2::Plugin::Redis>
 
