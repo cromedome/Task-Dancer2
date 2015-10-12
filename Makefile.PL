@@ -73,7 +73,7 @@ my %features = (
         'Auth::HTTP::Basic::DWIW' => { name => 'HTTP Basic authentication plugin for Dancer2 that does what I want' },
         'Auth::OAuth'   => { name => 'OAuth for your Dancer2 app' },
         'Auth::Tiny'    => { name => 'Simple plugin for handling user auth' },
-        'Auth::YARBAC'  => { name => 'Yet Another Role Based Access Control Framework' },
+        #'Auth::YARBAC'  => { name => 'Yet Another Role Based Access Control Framework' },
         BrowserDetect   => { name => 'Easily detect browser information' },
         'Cache::CHI'    => { name => 'Plugin to cache response content (and anything else)' },
         Captcha         => { name => 'Dancer2 add-on for CAPTCHA' },
