@@ -15,6 +15,8 @@ use inc::Module::Install;
 ## - Unmet dependency (String::UnicodeUTF8.pm) in ::Locale, other failures
 ## - Test failures in HTTP::Auth::Extensible
 ## - Test failures in Dancer2::Plugin::REST
+## - Test failures in ElasticSearch
+## - Dependency issues/missing in Text::Xslate
 ##
 
 my %features = (
@@ -29,7 +31,7 @@ my %features = (
                              minperl => '5.010001' },
         TemplateFlute   => { name => 'Template flute engine for Dancer2' },
         TextTemplate    => { name => 'Text::Template engine for Dancer2' },
-        Xslate          => { name => 'Text::Xslate template engine for Dancer2 ' },
+        #Xslate          => { name => 'Text::Xslate template engine for Dancer2 ' },
     },
 
     logging => {
@@ -83,7 +85,7 @@ my %features = (
         DataTransposeValidator => { name => 'Data::Transpose::Validator plugin for Dancer2' },
         DBIC            => { name => 'DBIx::Class interface for Dancer2 applications' },
         Deferred        => { name => 'Defer messages or data across redirections' },
-        ElasticSearch   => { name => 'Dancer2 plugin for obtaining Search::Elasticsearch handles' },
+        #ElasticSearch   => { name => 'Dancer2 plugin for obtaining Search::Elasticsearch handles' },
         Email           => { name => 'Simple email sending for Dancer2 applications' },
         Emailesque      => { name => 'Simple Emailesque support for Dancer2' },
         Feed            => { name => 'Easy to generate feed rss or atom for Dancer2 applications' },

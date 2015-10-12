@@ -49,7 +49,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Template::TextTemplate>
 
-=item L<Dancer2::Template::Xslate>
+=item L<Dancer2::Template::Xslate> (disabled)
 
 =back
 
@@ -83,7 +83,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::DBIC>
 
-=item L<Dancer2::Session::JSON> (temporarily disabled)
+=item L<Dancer2::Session::JSON> (disabled)
 
 =item L<Dancer2::Session::Memcached>
 
@@ -141,7 +141,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Deferred>
 
-=item L<Dancer2::Plugin::ElasticSearch>
+=item L<Dancer2::Plugin::ElasticSearch> (disabled)
 
 =item L<Dancer2::Plugin::Email>
 

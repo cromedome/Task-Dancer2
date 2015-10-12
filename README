@@ -26,7 +26,7 @@ INCLUDES MODULES
     Dancer2::Template::MojoTemplate
     Dancer2::Template::TemplateFlute
     Dancer2::Template::TextTemplate
-    Dancer2::Template::Xslate
+    Dancer2::Template::Xslate (disabled)
 
   Logging Engines
     Dancer2::Logger::Console::Colored
@@ -40,7 +40,7 @@ INCLUDES MODULES
     Dancer2::Session::CGISession
     Dancer2::Session::Cookie
     Dancer2::Session::DBIC
-    Dancer2::Session::JSON (temporarily disabled)
+    Dancer2::Session::JSON (disabled)
     Dancer2::Session::Memcached
     Dancer2::Session::MongoDB (disabled)
     Dancer2::Session::PSGI
@@ -68,7 +68,7 @@ INCLUDES MODULES
     Dancer2::Plugin::DataTransposeValidator
     Dancer2::Plugin::DBIC
     Dancer2::Plugin::Deferred
-    Dancer2::Plugin::ElasticSearch
+    Dancer2::Plugin::ElasticSearch (disabled)
     Dancer2::Plugin::Email
     Dancer2::Plugin::Emailesque
     Dancer2::Plugin::Feed
