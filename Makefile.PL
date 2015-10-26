@@ -7,14 +7,12 @@ use inc::Module::Install;
 ##
 ## Problems we are currently aware of (Linux and OSX):
 ## - Data::Alias isn't installing for Template::Caribou
-## - Bad version check in Dancer2::Session::JSON
 ## - Bad version check in Dancer2::Session::MongoDB
 ## - Test failures in Dancer2::Session::Sereal
 ## - Test failures in Dancer2::Plugin::Auth::YARBAC
 ## - Test failures in Dancer2::Plugin::Queue
 ## - Unmet dependency (String::UnicodeUTF8.pm) in ::Locale, other failures
 ## - Test failures in HTTP::Auth::Extensible
-## - Test failures in Dancer2::Plugin::REST
 ## - Test failures in ElasticSearch
 ## - Dependency issues/missing in Text::Xslate
 ##
@@ -54,7 +52,7 @@ my %features = (
         CGISession      => { name => 'Share Dancer2 sessions with CGI::Session' },
         Cookie          => { name => 'Session storage in secure cookies' },
         DBIC            => { name => 'DBIx::Class session engine for Dancer2' },
-        #JSON            => { name => 'Session storage in JSON files' },
+        JSON            => { name => 'Session storage in JSON files' },
         Memcached       => { name => 'Session storage with Cache::Memcached' },
         #MongoDB         => { name => 'Session storage with MongoDB' },
         PSGI            => { name => 'Session storage via Plack::Middleware::Session' },
@@ -104,12 +102,12 @@ my %features = (
         Passphrase      => { name => 'Passphrases and passwords as objects' },
         'Path::Class'   => { name => 'List a directory using Path::Class' },
         ProgressStatus  => { name => 'Keeps track of progress status' },
-        #Queue           => { name => 'Message queue abstractions' },
+        Queue           => { name => 'Message queue abstractions' },
         #'Queue::MongoDB' => { name => 'Dancer2::Plugin::Queue backend using MongoDB' },
         reCAPTCHA       => { name => 'Integrate reCAPTCHA into Dancer2 applications' },
         Redis           => { name => 'Plugin for interaction with key-value-store Redis' },
         Res             => { name => 'Add on for setting status/response' },
-        #REST            => { name => 'Write RESTful apps with Dancer2' },
+        REST            => { name => 'Write RESTful apps with Dancer2' },
         RootURIFor      => { name => 'Mountpoint-agnostic URI builder' },
         RoutePodCoverage => { name => 'Verify route Pod coverage in Dancer2 apps' },
         Sixpack         => { name => 'Plugin for WWW::Sixpack' },

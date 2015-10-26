@@ -2,7 +2,7 @@ NAME
     Task::Dancer2 - Dancer2... in a box!
 
 VERSION
-    Version 0.01
+    Version 0.04
 
 DESCRIPTION
     This Task installs Dancer2, optional engines, templates and assorted
@@ -40,7 +40,7 @@ INCLUDES MODULES
     Dancer2::Session::CGISession
     Dancer2::Session::Cookie
     Dancer2::Session::DBIC
-    Dancer2::Session::JSON (disabled)
+    Dancer2::Session::JSON
     Dancer2::Session::Memcached
     Dancer2::Session::MongoDB (disabled)
     Dancer2::Session::PSGI
@@ -87,12 +87,12 @@ INCLUDES MODULES
     Dancer2::Plugin::Passphrase
     Dancer2::Plugin::Path::Class
     Dancer2::Plugin::ProgressStatus
-    Dancer2::Plugin::Queue (disabled)
+    Dancer2::Plugin::Queue
     Dancer2::Plugin::Queue::MongoDB (disabled)
     Dancer2::Plugin::reCAPTCHA
     Dancer2::Plugin::Redis
     Dancer2::Plugin::Res
-    Dancer2::Plugin::REST (disabled)
+    Dancer2::Plugin::REST
     Dancer2::Plugin::RootURIFor
     Dancer2::Plugin::RoutePodCoverage
     Dancer2::Plugin::Sixpack

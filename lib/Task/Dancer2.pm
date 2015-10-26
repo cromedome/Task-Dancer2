@@ -1,7 +1,7 @@
 package Task::Dancer2;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.04';
 
 1;
 
@@ -13,7 +13,7 @@ Task::Dancer2 - Dancer2... in a box!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.04
 
 =head1 DESCRIPTION
 
@@ -83,7 +83,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::DBIC>
 
-=item L<Dancer2::Session::JSON> (disabled)
+=item L<Dancer2::Session::JSON> 
 
 =item L<Dancer2::Session::Memcached>
 
@@ -179,7 +179,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::ProgressStatus>
 
-=item L<Dancer2::Plugin::Queue> (disabled)
+=item L<Dancer2::Plugin::Queue> 
 
 =item L<Dancer2::Plugin::Queue::MongoDB> (disabled)
 
@@ -189,7 +189,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Res>
 
-=item L<Dancer2::Plugin::REST> (disabled)
+=item L<Dancer2::Plugin::REST>
 
 =item L<Dancer2::Plugin::RootURIFor>
 
