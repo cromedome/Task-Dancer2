@@ -7,7 +7,6 @@ use inc::Module::Install;
 ##
 ## Problems we are currently aware of (Linux and OSX):
 ## - Data::Alias isn't installing for Template::Caribou
-## - Bad version check in Dancer2::Session::MongoDB
 ## - Test failures in Dancer2::Session::Sereal
 ## - Test failures in Dancer2::Plugin::Auth::YARBAC
 ## - Test failures in Dancer2::Plugin::Queue
@@ -103,7 +102,7 @@ my %features = (
         'Path::Class'   => { name => 'List a directory using Path::Class' },
         ProgressStatus  => { name => 'Keeps track of progress status' },
         Queue           => { name => 'Message queue abstractions' },
-        #'Queue::MongoDB' => { name => 'Dancer2::Plugin::Queue backend using MongoDB' },
+        'Queue::MongoDB' => { name => 'Dancer2::Plugin::Queue backend using MongoDB' },
         reCAPTCHA       => { name => 'Integrate reCAPTCHA into Dancer2 applications' },
         Redis           => { name => 'Plugin for interaction with key-value-store Redis' },
         Res             => { name => 'Add on for setting status/response' },

@@ -2,7 +2,7 @@ NAME
     Task::Dancer2 - Dancer2... in a box!
 
 VERSION
-    Version 0.04
+    Version 0.05
 
 DESCRIPTION
     This Task installs Dancer2, optional engines, templates and assorted
@@ -88,7 +88,7 @@ INCLUDES MODULES
     Dancer2::Plugin::Path::Class
     Dancer2::Plugin::ProgressStatus
     Dancer2::Plugin::Queue
-    Dancer2::Plugin::Queue::MongoDB (disabled)
+    Dancer2::Plugin::Queue::MongoDB
     Dancer2::Plugin::reCAPTCHA
     Dancer2::Plugin::Redis
     Dancer2::Plugin::Res

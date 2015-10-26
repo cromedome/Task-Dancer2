@@ -1,7 +1,7 @@
 package Task::Dancer2;
 use strict;
 use warnings;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 1;
 
@@ -13,7 +13,7 @@ Task::Dancer2 - Dancer2... in a box!
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =head1 DESCRIPTION
 
@@ -181,7 +181,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Queue> 
 
-=item L<Dancer2::Plugin::Queue::MongoDB> (disabled)
+=item L<Dancer2::Plugin::Queue::MongoDB> 
 
 =item L<Dancer2::Plugin::reCAPTCHA>
 

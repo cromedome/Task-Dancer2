@@ -1,5 +1,8 @@
 Revision history for Task-Dancer2
 
+0.05    2015-10-26
+        Dancer2::Plugin::Queue::MongoDB enabled
+
 0.04    2015-10-23
         Dancer2::Plugin::Queue enabled
         Dancer2::Plugin::REST enabled
