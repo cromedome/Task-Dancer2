@@ -1,5 +1,8 @@
 Revision history for Task-Dancer2
 
+0.06	2015-11-04
+	Changed link for Dancer2::Logger::File::RotateLogs in REAMDE
+
 0.05    2015-10-26
         Dancer2::Plugin::Queue::MongoDB enabled
 

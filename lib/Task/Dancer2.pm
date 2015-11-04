@@ -59,7 +59,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Logger::Console::Colored>
 
-=item L<Dancer::Logger::File::RotateLogs>
+=item L<Dancer2::Logger::File::RotateLogs>
 
 =item L<Dancer2::Logger::Syslog>
 

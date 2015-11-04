@@ -2,7 +2,7 @@ NAME
     Task::Dancer2 - Dancer2... in a box!
 
 VERSION
-    Version 0.05
+    Version 0.06
 
 DESCRIPTION
     This Task installs Dancer2, optional engines, templates and assorted
@@ -30,7 +30,7 @@ INCLUDES MODULES
 
   Logging Engines
     Dancer2::Logger::Console::Colored
-    Dancer::Logger::File::RotateLogs
+    Dancer2::Logger::File::RotateLogs
     Dancer2::Logger::Syslog
 
   Serialization
