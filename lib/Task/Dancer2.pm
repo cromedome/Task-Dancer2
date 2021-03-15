@@ -109,7 +109,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::Memcached>
 
-=item L<Dancer2::Session::MongoDB> (disabled)
+=item L<Dancer2::Session::MongoDB>
 
 =item L<Dancer2::Session::PSGI>
 
