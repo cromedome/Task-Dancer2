@@ -115,7 +115,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::Redis>
 
-=item L<Dancer2::Session::Sereal> (disabled)
+=item L<Dancer2::Session::Sereal>
 
 =back
 
