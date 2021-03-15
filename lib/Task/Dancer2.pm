@@ -211,8 +211,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Github::Webhook>
 
-=item L<Dancer2::Plugin::GoogleAnalytics>
-
 =item L<Dancer2::Plugin::GraphQL>
 
 =item L<Dancer2::Plugin::Growler>
@@ -354,6 +352,8 @@ These modules are believed to be broken/uninstallable.
 =over 4
 
 =item L<Dancer2::Plugin::FlashNote>
+
+=item L<Dancer2::Plugin::GoogleAnalytics>
 
 =back
 
