@@ -13,7 +13,7 @@ Task::Dancer2 - Dancer2... in a box!
 
 =head1 VERSION
 
-Version 0.05
+Version 0.07
 
 =head1 DESCRIPTION
 
@@ -37,7 +37,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Template::Alloy>
 
-=item L<Dancer2::Template::Caribou> (disabled)
+=item L<Dancer2::Template::Caribou>
 
 =item L<Dancer2::Template::Haml>
 
@@ -349,7 +349,7 @@ These modules don't quite fit in another category.
 
 =back
 
-=head2 Broken
+=head2 Broken/Temporarily Disabled
 
 These modules are believed to be broken/uninstallable. 
 
