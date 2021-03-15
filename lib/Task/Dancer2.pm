@@ -67,7 +67,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Logger::Fluent>
 
-=item L<Dancer2::Logger::File::Radis>
+=item L<Dancer2::Logger::Radis>
 
 =item L<Dancer2::Logger::File::RotateLogs>
 
