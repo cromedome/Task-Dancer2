@@ -161,7 +161,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Auth::Tiny>
 
-=item L<Dancer2::Plugin::Auth::YARBAC> (disabled)
+=item L<Dancer2::Plugin::Auth::YARBAC>
 
 =item L<Dancer2::Plugin::BeforeRoute>
 
