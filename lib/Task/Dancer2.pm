@@ -193,7 +193,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::EditFile>
 
-=item L<Dancer2::Plugin::ElasticSearch> (disabled)
+=item L<Dancer2::Plugin::ElasticSearch>
 
 =item L<Dancer2::Plugin::Email>
 
