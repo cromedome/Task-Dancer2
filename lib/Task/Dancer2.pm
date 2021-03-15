@@ -215,8 +215,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Growler>
 
-=item L<Dancer2::Plugin::HTTP::Auth::Extensible> (disabled)
-
 =item L<Dancer2::Plugin::HTTP::Bundle>
 
 =item L<Dancer2::Plugin::HTTP::Caching>
@@ -354,6 +352,8 @@ These modules are believed to be broken/uninstallable.
 =item L<Dancer2::Plugin::FlashNote>
 
 =item L<Dancer2::Plugin::GoogleAnalytics>
+
+=item L<Dancer2::Plugin::HTTP::Auth::Extensible>
 
 =back
 
