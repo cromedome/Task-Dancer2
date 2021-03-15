@@ -177,10 +177,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::ConditionalCaching>
 
-=item L<Dancer2::Plugin::ConditionalRequest>
-
-=item L<Dancer2::Plugin::ContentNegotiation>
-
 =item L<Dancer2::Plugin::CSRF>
 
 =item L<Dancer2::Plugin::Database>
@@ -228,6 +224,10 @@ tell us if any module that was temporarily disabled is working again.
 =item L<Dancer2::Plugin::HTTP::Bundle>
 
 =item L<Dancer2::Plugin::HTTP::Caching>
+
+=item L<Dancer2::Plugin::HTTP::ConditionalRequest>
+
+=item L<Dancer2::Plugin::HTTP::ContentNegotiation>
 
 =item L<Dancer2::Plugin::Interchange6>
 
