@@ -207,8 +207,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Flash>
 
-=item L<Dancer2::Plugin::FlashNote>
-
 =item L<Dancer2::Plugin::FontSubset>
 
 =item L<Dancer2::Plugin::Github::Webhook>
@@ -354,6 +352,8 @@ These modules don't quite fit in another category.
 These modules are believed to be broken/uninstallable. 
 
 =over 4
+
+=item L<Dancer2::Plugin::FlashNote>
 
 =back
 
