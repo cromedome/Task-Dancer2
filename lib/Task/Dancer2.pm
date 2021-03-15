@@ -203,49 +203,35 @@ tell us if any module that was temporarily disabled is working again.
 
 =back
 
+=head2 Broken
+
+These modules are believed to be broken/uninstallable. 
+
+=over 4
+
+=back
+
 =head1 AUTHOR
 
 Jason A. Crome C< cromedome AT cpan DOT org >
 
 =head1 BUGS
 
-Please report any bugs or feature requests to C<bug-task-dancer at rt.cpan.org>,
-or through the web interface at
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Task-Dancer>.  I will be
-notified, and then you'll automatically be notified of progress on your bug as I
-make changes.
+Please report any bugs or feature requests via the 
+L<GitHub issue tracker|https://github.com/PerlDancer/Task-Dancer2/issues>
+for C<Task::Dancer2>.
 
 =head1 SUPPORT
 
-You can find documentation for this module with the perldoc command.
-
-    perldoc Task::Dancer2
-
-You can also look for information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker (report bugs here)
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Task-Dancer2>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Task-Dancer2>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/Task-Dancer2>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/Task-Dancer2/>
-
-=back
+If you need assistance in using this module, or have any questions,
+please visit C<irc.perl.org #dancer> on IRC, or browse the list of support
+issues (open and resolved) at the
+L<GitHub issue tracker|https://github.com/PerlDancer/Task-Dancer2/issues>
+for C<Task::Dancer2>.
 
 =head1 ACKNOWLEDGEMENTS
 
-L<Dancer2> team.
+L<Dancer2> Core Developers
 
 Sawyer X, C<xsawyerx AT cpan DOT org>
 
@@ -253,7 +239,7 @@ Alberto Simoes, C<ambs AT cpan DOT org>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2015, Jason A. Crome.
+Copyright 2015-2021, Jason A. Crome.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
