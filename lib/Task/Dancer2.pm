@@ -229,8 +229,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::JWT>
 
-=item L<Dancer2::Plugin::Locale> (disabled)
-
 =item L<Dancer2::Plugin::Locale::Meta>
 
 =item L<Dancer2::Plugin::Locale::Wolowitz> (disabled)
@@ -354,6 +352,8 @@ These modules are believed to be broken/uninstallable.
 =item L<Dancer2::Plugin::GoogleAnalytics>
 
 =item L<Dancer2::Plugin::HTTP::Auth::Extensible>
+
+=item L<Dancer2::Plugin::Locale>
 
 =back
 
