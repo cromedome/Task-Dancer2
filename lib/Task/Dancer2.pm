@@ -315,10 +315,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Tail>
 
-=item L<Dancer2::Plugin::UnicodeNormalize>
-
-=item L<Dancer2::Plugin::WebService>
-
 =item L<Dancer2::Plugin::WebSocket>
 
 =back
@@ -354,6 +350,10 @@ These modules are believed to be broken/uninstallable.
 =item L<Dancer2::Plugin::Locale>
 
 =item L<Dancer2::Plugin::Swagger2>
+
+=item L<Dancer2::Plugin::UnicodeNormalize>
+
+=item L<Dancer2::Plugin::WebService>
 
 =back
 
