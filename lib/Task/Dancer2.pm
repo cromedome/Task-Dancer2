@@ -231,7 +231,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Locale::Meta>
 
-=item L<Dancer2::Plugin::Locale::Wolowitz> (disabled)
+=item L<Dancer2::Plugin::Locale::Wolowitz>
 
 =item L<Dancer2::Plugin::LogContextual>
 
