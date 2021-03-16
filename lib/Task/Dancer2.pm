@@ -309,8 +309,6 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::SPID>
 
-=item L<Dancer2::Plugin::Swagger2>
-
 =item L<Dancer2::Plugin::SyntaxHighlight::Perl>
 
 =item L<Dancer2::Plugin::Syntax::GetPost>
@@ -354,6 +352,8 @@ These modules are believed to be broken/uninstallable.
 =item L<Dancer2::Plugin::HTTP::Auth::Extensible>
 
 =item L<Dancer2::Plugin::Locale>
+
+=item L<Dancer2::Plugin::Swagger2>
 
 =back
 
