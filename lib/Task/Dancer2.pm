@@ -313,6 +313,8 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Syntax::GetPost>
 
+=item L<Dancer2::Plugin::Syntax::ParamKeywords>
+
 =item L<Dancer2::Plugin::Tail>
 
 =item L<Dancer2::Plugin::WebSocket>
