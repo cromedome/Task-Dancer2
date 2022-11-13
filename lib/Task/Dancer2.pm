@@ -1,7 +1,7 @@
 package Task::Dancer2;
 use strict;
 use warnings;
-our $VERSION = '0.05';
+our $VERSION = '0.07';
 
 1;
 
@@ -13,7 +13,7 @@ Task::Dancer2 - Dancer2... in a box!
 
 =head1 VERSION
 
-Version 0.05
+Version 0.07
 
 =head1 DESCRIPTION
 
@@ -38,6 +38,8 @@ tell us if any module that was temporarily disabled is working again.
 =item L<Dancer2::Template::Caribou> (disabled)
 
 =item L<Dancer2::Template::Haml>
+
+=item L<Dancer2::Template::Handlebars>
 
 =item L<Dancer2::Template::HTCompiled>
 
@@ -111,7 +113,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Auth::Extensible>
 
-=item L<Dancer2::Plugin::Auth::Extensible::Provider::DBIC>
+=item L<Dancer2::Plugin::Auth::Extensible::Provider::DBIxClass>
 
 =item L<Dancer2::Plugin::Auth::Extensible::Provider::Usergroup>
 
@@ -137,7 +139,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::DataTransposeValidator>
 
-=item L<Dancer2::Plugin::DBIC>
+=item L<Dancer2::Plugin::DBIx::Class>
 
 =item L<Dancer2::Plugin::Deferred>
 
