@@ -1,7 +1,7 @@
 package Task::Dancer2;
 use strict;
 use warnings;
-our $VERSION = '0.05';
+our $VERSION = '0.07';
 
 1;
 
@@ -13,7 +13,7 @@ Task::Dancer2 - Dancer2... in a box!
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =head1 DESCRIPTION
 
@@ -207,6 +207,10 @@ tell us if any module that was temporarily disabled is working again.
 
 Jason A. Crome C< cromedome AT cpan DOT org >
 
+=head1 CONTRIBUTORS
+
+Rory Zweistra
+
 =head1 BUGS
 
 Please report any bugs or feature requests to C<bug-task-dancer at rt.cpan.org>,
@@ -245,7 +249,7 @@ L<http://search.cpan.org/dist/Task-Dancer2/>
 
 =head1 ACKNOWLEDGEMENTS
 
-L<Dancer2> team.
+L<Dancer2> Core Developers
 
 Sawyer X, C<xsawyerx AT cpan DOT org>
 
@@ -253,7 +257,7 @@ Alberto Simoes, C<ambs AT cpan DOT org>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2015, Jason A. Crome.
+Copyright 2015-2016, Jason A. Crome.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

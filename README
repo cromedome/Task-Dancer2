@@ -102,6 +102,9 @@ INCLUDES MODULES
 AUTHOR
     Jason A. Crome " cromedome AT cpan DOT org "
 
+CONTRIBUTORS
+    Rory Zweistra
+
 BUGS
     Please report any bugs or feature requests to "bug-task-dancer at
     rt.cpan.org", or through the web interface at
