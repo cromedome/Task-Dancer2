@@ -26,7 +26,7 @@ If you've written anything relating to Dancer2, please let us know.
 
 We try to maintain a list of modules that are maintained and install
 properly. If any of the modules in C<Task::Dancer2> tried to install
-and failed, please let us know so we can temporarily disable it. Also, 
+and failed, please let us know so we can temporarily disable it. Also,
 tell us if any module that was temporarily disabled is working again.
 
 =head1 INCLUDES MODULES
@@ -85,7 +85,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Session::DBIC>
 
-=item L<Dancer2::Session::JSON> 
+=item L<Dancer2::Session::JSON>
 
 =item L<Dancer2::Session::Memcached>
 
@@ -129,7 +129,7 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::Cache::CHI>
 
-=item L<Dancer2::Plugin::Captcha> 
+=item L<Dancer2::Plugin::Captcha>
 
 =item L<Dancer2::Plugin::Chain>
 
@@ -181,9 +181,9 @@ tell us if any module that was temporarily disabled is working again.
 
 =item L<Dancer2::Plugin::ProgressStatus>
 
-=item L<Dancer2::Plugin::Queue> 
+=item L<Dancer2::Plugin::Queue>
 
-=item L<Dancer2::Plugin::Queue::MongoDB> 
+=item L<Dancer2::Plugin::Queue::MongoDB>
 
 =item L<Dancer2::Plugin::reCAPTCHA>
 
