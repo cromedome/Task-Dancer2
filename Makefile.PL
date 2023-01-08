@@ -5,16 +5,6 @@ use lib '.';
 # Load the Module::Install bundled in ./inc/
 use inc::Module::Install;
 
-##
-## Problems we are currently aware of (Linux and macOS):
-## - Test failures in Dancer2::Session::Sereal
-## - Test failures in Dancer2::Plugin::Auth::YARBAC
-## - Test failures in Dancer2::Plugin::Queue
-## - Unmet dependency (String::UnicodeUTF8.pm) in ::Locale, other failures
-## - Test failures in HTTP::Auth::Extensible
-## - Test failures in ElasticSearch
-##
-
 my %features = (
     templating => {
         namespace       => 'Template',
